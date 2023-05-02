@@ -1,0 +1,256 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.press_start,
+.counter1,
+.counter2,
+.counter3,
+.counter4 {
+    font-family: 'Press Start 2P' !important;
+}
+
+.post_top:hover .image_hover,
+.post_bot:hover .image_hover,
+.post_left:hover .image_hover,
+.post_right:hover .image_hover {
+    opacity: 1;
+    -webkit-animation: flash 1.5s;
+    animation: flash 1.5s;
+}
+
+@-webkit-keyframes flash {
+    0% {
+        opacity: .4;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes flash {
+    0% {
+        opacity: .4;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.post_top .triangle::after {
+    content: '';
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    border: 10px solid transparent;
+    border-bottom: 10px solid #fafaf7;
+}
+
+.post_top:hover .triangle::after {
+    border-bottom: 10px solid #ffeb3b;
+    ;
+}
+
+.post_bot .triangle::after {
+    content: '';
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    border: 10px solid transparent;
+    border-top: 10px solid #fafaf7;
+}
+
+.post_bot:hover .triangle::after {
+    border-top: 10px solid #ffeb3b;
+    ;
+}
+
+.post_left .triangle::after {
+    content: '';
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    border: 10px solid transparent;
+    border-right: 10px solid #fafaf7;
+}
+
+.post_left:hover .triangle::after {
+    border-right: 10px solid #ffeb3b;
+    ;
+}
+
+.post_right .triangle::after {
+    content: '';
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    border: 10px solid transparent;
+    border-left: 10px solid #fafaf7;
+}
+
+.post_right:hover .triangle::after {
+    border-left: 10px solid #ffeb3b;
+    ;
+}
+
+.project_image:hover {
+    opacity: 1;
+    -webkit-animation: flash 1.5s;
+    animation: flash 1.5s;
+}
+
+@-webkit-keyframes flash {
+    0% {
+        opacity: .6;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes flash {
+    0% {
+        opacity: .6;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.grayscale {
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    filter: gray;
+    -webkit-filter: grayscale(1);
+}
+
+.grayscale:hover {
+    filter: grayscale(0%);
+    -webkit-filter: grayscale(0%);
+    -moz-filter: grayscale(0%);
+    -ms-filter: grayscale(0%);
+    -o-filter: grayscale(0%);
+    -webkit-filter: grayscale(0);
+    transition: 1s;
+}
+
+#counter2 {
+    width: 260px;
+    height: 260px;
+    background: #FFFFFF;
+
+    padding: 0px;
+    margin: 0px;
+}
+
+#counter2 li {
+    background: linear-gradient(to top right, #90268E, #A916A6);
+    display: block;
+    float: right;
+    animation-name: pixel;
+    animation-duration: 30ms;
+    animation-fill-mode: both;
+}
+
+@keyframes pixel {
+    from {
+        opacity: 0
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+#counter4 {
+    width: 260px;
+    height: 260px;
+    background: #FFFFFF;
+
+    padding: 0px;
+    margin: 0px;
+}
+
+#counter4 li {
+    background: linear-gradient(to top right, #0073B9, #006AAB);
+    display: block;
+    float: right;
+    animation-name: pixel;
+    animation-duration: 30ms;
+    animation-fill-mode: both;
+}
+
+@keyframes pixel {
+    from {
+        opacity: 0
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+#counter1 {
+    width: 260px;
+    height: 260px;
+    background: #FFFFFF;
+
+    padding: 0px;
+    margin: 0px;
+}
+
+#counter1 li {
+    background: linear-gradient(to top right, #20C0D6, #19BBD1);
+    display: block;
+    float: right;
+    animation-name: pixel;
+    animation-duration: 30ms;
+    animation-fill-mode: both;
+}
+
+@keyframes pixel {
+    from {
+        opacity: 0
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+#counter3 {
+    width: 260px;
+    height: 260px;
+    background: #FFFFFF;
+
+    padding: 0px;
+    margin: 0px;
+}
+
+#counter3 li {
+    background: linear-gradient(to top right, #40B54F, #2CA83C);
+    display: block;
+    float: right;
+    animation-name: pixel;
+    animation-duration: 30ms;
+    animation-fill-mode: both;
+}
+
+@keyframes pixel {
+    from {
+        opacity: 0
+    }
+
+    to {
+        opacity: 1
+    }
+}
